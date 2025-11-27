@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.top-buttons {
+    margin-bottom: 20px;
+}
+
+.top-buttons button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.banner-image img {
+    width: 150px;
+    height: auto;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.product img {
+    width: 180px;        /* সব ছবি width সমান */
+    height: 180px;       /* সব ছবি height সমান */
+    object-fit: cover;   /* aspect ratio ঠিক রেখে crop হবে */
+    border-radius: 6px;
+}
+
+.product h3 {
+    margin: 10px 0 5px 0;
+}
+
+.product p {
+    margin: 5px 0 10px 0;
+    font-weight: bold;
+}
+
+.product button {
+    padding: 8px 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #333;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}

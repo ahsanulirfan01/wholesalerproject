@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>আমার ওয়েবসাইট</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .top-buttons {
+            margin-bottom: 20px;
+            text-align: center; /* Buttons center align */
+        }
+        .top-buttons button {
+            font-size: 16px;
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 0 10px;
+        }
+        .banner-image {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .banner-image img {
+            width: 150px;
+            height: auto;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .products-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center the products */
+            gap: 15px; /* gap between products */
+        }
+        .product {
+            width: 180px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        .product img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .product h3 {
+            margin: 10px 0 5px 0;
+        }
+        .product p {
+            margin: 5px 0 10px 0;
+            font-weight: bold;
+        }
+        .product button {
+            padding: 8px 12px;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #333;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+<section class="products" id="home"> 
+    <!-- Buttons -->
+    <div class="top-buttons">
+        <button onclick="location.href='#home'">Home</button>
+        <button onclick="location.href='payment.html'">Payment Gateway</button>
+    </div>
+
+    <!-- Banner Image -->
+    <div class="banner-image">
+        <a href="https://play.google.com/store/apps/details?id=wholesaleplus.com.bd" target="_blank">
+            <img src="https://i.postimg.cc/QMKYZPmv/Whats-App-Image-2025-11-26-at-20-25-18-5ee28323.jpg" alt="Banner">
+        </a>
+    </div>
+
+    <!-- Products in 2 rows -->
+    <div class="products-container">
+        <div class="product">
+            <img src="https://i.postimg.cc/MpHc3YT1/61t6F3jeqh-L-AC-UF894-1000-QL80.jpg" />
+            <h3>চামিচ সেট</h3>
+            <p>১০০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.postimg.cc/5tv2DKM3/81s-Z-pi-QLl-L-AC-SL1500.jpg" />
+            <h3>থালা সেট</h3>
+            <p>২০০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.postimg.cc/PqGwLwXY/amasata-bara-kha-oya-ra-upaka-ra-ta-6-1024x576.jpg" />
+            <h3>আমসত্ত্বা</h3>
+            <p>৮০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.postimg.cc/3Rt5q2W3/Bashundhara-Maida-50kg-Bag-1.jpg" />
+            <h3>গম</h3>
+            <p>৫০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.postimg.cc/WbBRxNpw/images-(1).jpg" />
+            <h3>আমের আচাঁঁর</h3>
+            <p>৯০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <!-- Second row -->
+        <div class="product">
+            <img src="https://i.postimg.cc/fLT1Yk5V/images-(2).jpg" />
+            <h3>বাটির সেট</h3>
+            <p>১০০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.postimg.cc/Hxhv5zVQ/images-(3).jpg" />
+            <h3>গ্লাস সেট</h3>
+            <p>১২০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.postimg.cc/YqKKs2Cv/images.jpg" />
+            <h3>Flour</h3>
+            <p>৭০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+     <div class="product">
+            <img src="https://i.postimg.cc/t4qcKsQS/ispahani-mirzapore-tea-bag-50-pcs.jpg" />
+            <h3>চা পাতি</h3>
+            <p>৩০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://i.postimg.cc/qvqLcyHQ/prod-20220416-1224274091366995342677560-jpg-500x500.webp" />
+            <h3>আঁটা</h3>
+            <p>৬০৳</p>
+            <button onclick="location.href='payment.html'">Add to Cart</button>
+        </div>
+    </div>
+</section>
+
+<div class="footer">location: Bangladesh</div>
+
+</body>
+</html>
